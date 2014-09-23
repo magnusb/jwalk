@@ -42,7 +42,7 @@ public class ZipFileProcessor {
      * @return
      */
     public static boolean isArchive(String fileName) {
-        return fileName.endsWith(".jar") || fileName.endsWith(".zip") || fileName.endsWith(".war");
+        return fileName.endsWith(".jar") || fileName.endsWith(".zip") || fileName.endsWith(".war") || fileName.endsWith(".ear");
     }
 
     /**
